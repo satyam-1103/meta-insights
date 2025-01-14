@@ -6,7 +6,7 @@ import axios from "axios";
 import { FaArrowUp, FaSpinner } from "react-icons/fa";
 import Link from "next/link";
 
-const page = () => {
+const Page = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [contact, setContact] = useState("");
@@ -173,4 +173,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
