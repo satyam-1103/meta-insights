@@ -5,7 +5,7 @@ import auth from "@/public/assets/images/auth.svg";
 import axios from "axios";
 import { FaArrowUp, FaSpinner } from "react-icons/fa";
 import Link from "next/link";
-const page = () => {
+const Page = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
@@ -126,4 +126,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
